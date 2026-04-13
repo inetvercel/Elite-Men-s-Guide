@@ -1,0 +1,1135 @@
+{
+  "wpCategories": [
+    {
+      "id": 6,
+      "count": 56,
+      "description": "",
+      "link": "https://elitemensguide.com/category/aging/",
+      "name": "Aging",
+      "slug": "aging",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories/6",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/posts?categories=6"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 120,
+      "count": 13,
+      "description": "",
+      "link": "https://elitemensguide.com/category/aging/aging-bodily-changes/",
+      "name": "Aging Bodily Changes",
+      "slug": "aging-bodily-changes",
+      "taxonomy": "category",
+      "parent": 6,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories/120",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "up": [
+          {
+            "embeddable": true,
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories/6"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/posts?categories=120"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 138,
+      "count": 5,
+      "description": "",
+      "link": "https://elitemensguide.com/category/body-weight-type-workouts/",
+      "name": "Body Weight",
+      "slug": "body-weight-type-workouts",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories/138",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/posts?categories=138"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 139,
+      "count": 1,
+      "description": "",
+      "link": "https://elitemensguide.com/category/emg-digest-discontinued-3/",
+      "name": "Emg Digest Discontinued",
+      "slug": "emg-digest-discontinued-3",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories/139",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/posts?categories=139"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 74,
+      "count": 55,
+      "description": "",
+      "link": "https://elitemensguide.com/category/lifestyle/exercise/",
+      "name": "Exercise &amp; Fitness",
+      "slug": "exercise",
+      "taxonomy": "category",
+      "parent": 63,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories/74",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "up": [
+          {
+            "embeddable": true,
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories/63"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/posts?categories=74"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 131,
+      "count": 33,
+      "description": "",
+      "link": "https://elitemensguide.com/category/four-per-week-type-workouts/",
+      "name": "Four Per Week",
+      "slug": "four-per-week-type-workouts",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories/131",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/posts?categories=131"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 123,
+      "count": 85,
+      "description": "",
+      "link": "https://elitemensguide.com/category/mens-health/general-health-topics/",
+      "name": "General Health Topics",
+      "slug": "general-health-topics",
+      "taxonomy": "category",
+      "parent": 122,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories/123",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "up": [
+          {
+            "embeddable": true,
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories/122"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/posts?categories=123"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 124,
+      "count": 10,
+      "description": "",
+      "link": "https://elitemensguide.com/category/mens-health/health-numbers/",
+      "name": "Health Numbers",
+      "slug": "health-numbers",
+      "taxonomy": "category",
+      "parent": 122,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories/124",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "up": [
+          {
+            "embeddable": true,
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories/122"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/posts?categories=124"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 121,
+      "count": 16,
+      "description": "",
+      "link": "https://elitemensguide.com/category/aging/human-growth-hormone/",
+      "name": "Human Growth Hormone",
+      "slug": "human-growth-hormone",
+      "taxonomy": "category",
+      "parent": 6,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories/121",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "up": [
+          {
+            "embeddable": true,
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories/6"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/posts?categories=121"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 63,
+      "count": 114,
+      "description": "",
+      "link": "https://elitemensguide.com/category/lifestyle/",
+      "name": "Lifestyle",
+      "slug": "lifestyle",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories/63",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/posts?categories=63"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 50,
+      "count": 23,
+      "description": "",
+      "link": "https://elitemensguide.com/category/machine/",
+      "name": "Machine",
+      "slug": "machine",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories/50",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/posts?categories=50"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 125,
+      "count": 37,
+      "description": "",
+      "link": "https://elitemensguide.com/category/machine-free-weights-type-workouts/",
+      "name": "Machine Free Weights",
+      "slug": "machine-free-weights-type-workouts",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories/125",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/posts?categories=125"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 122,
+      "count": 92,
+      "description": "",
+      "link": "https://elitemensguide.com/category/mens-health/",
+      "name": "Mens Health",
+      "slug": "mens-health",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories/122",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/posts?categories=122"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 135,
+      "count": 20,
+      "description": "",
+      "link": "https://elitemensguide.com/category/muscle-endurance-type-workouts/",
+      "name": "Muscle Endurance",
+      "slug": "muscle-endurance-type-workouts",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories/135",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/posts?categories=135"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 126,
+      "count": 20,
+      "description": "",
+      "link": "https://elitemensguide.com/category/muscle-growth-type-workouts/",
+      "name": "Muscle Growth",
+      "slug": "muscle-growth-type-workouts",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories/126",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/posts?categories=126"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 69,
+      "count": 45,
+      "description": "",
+      "link": "https://elitemensguide.com/category/lifestyle/nutrition/",
+      "name": "Nutrition",
+      "slug": "nutrition",
+      "taxonomy": "category",
+      "parent": 63,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories/69",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "up": [
+          {
+            "embeddable": true,
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories/63"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/posts?categories=69"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 70,
+      "count": 16,
+      "description": "",
+      "link": "https://elitemensguide.com/category/lifestyle/sleep/",
+      "name": "Sleep",
+      "slug": "sleep",
+      "taxonomy": "category",
+      "parent": 63,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories/70",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "up": [
+          {
+            "embeddable": true,
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories/63"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/posts?categories=70"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 132,
+      "count": 25,
+      "description": "",
+      "link": "https://elitemensguide.com/category/strength-endurance-type-workouts/",
+      "name": "Strength Endurance",
+      "slug": "strength-endurance-type-workouts",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories/132",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/posts?categories=132"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 62,
+      "count": 34,
+      "description": "",
+      "link": "https://elitemensguide.com/category/aging/testosterone/",
+      "name": "Testosterone",
+      "slug": "testosterone",
+      "taxonomy": "category",
+      "parent": 6,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories/62",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "up": [
+          {
+            "embeddable": true,
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories/6"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/posts?categories=62"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 127,
+      "count": 18,
+      "description": "",
+      "link": "https://elitemensguide.com/category/three-per-week-type-workouts/",
+      "name": "Three Per Week",
+      "slug": "three-per-week-type-workouts",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories/127",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/posts?categories=127"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 137,
+      "count": 14,
+      "description": "",
+      "link": "https://elitemensguide.com/category/two-per-week-type-workouts/",
+      "name": "Two Per Week",
+      "slug": "two-per-week-type-workouts",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories/137",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/posts?categories=137"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "count": 2,
+      "description": "",
+      "link": "https://elitemensguide.com/category/uncategorized/",
+      "name": "Uncategorized",
+      "slug": "uncategorized",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories/1",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/posts?categories=1"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 133,
+      "count": 27,
+      "description": "",
+      "link": "https://elitemensguide.com/category/up-to-one-hour-type-workouts/",
+      "name": "Up To One Hour",
+      "slug": "up-to-one-hour-type-workouts",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories/133",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/posts?categories=133"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 128,
+      "count": 38,
+      "description": "",
+      "link": "https://elitemensguide.com/category/up-to-thirty-type-workouts/",
+      "name": "Up To Thirty",
+      "slug": "up-to-thirty-type-workouts",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories/128",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://elitemensguide.com/wp-json/wp/v2/posts?categories=128"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ],
+  "wpTags": [],
+  "postsCount": 265,
+  "pagesCount": 37
+}

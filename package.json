@@ -1,0 +1,38 @@
+{
+  "name": "elitemensguide",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "sanity": "sanity dev",
+    "import": "node scripts/import-from-wordpress.mjs",
+    "reimport": "node scripts/delete-posts.mjs && node scripts/import-from-wordpress.mjs",
+    "check": "node scripts/check-setup.mjs",
+    "fill-images": "node scripts/fill-missing-images.mjs",
+    "fill-images:all": "node scripts/fill-missing-images.mjs --all"
+  },
+  "dependencies": {
+    "@portabletext/react": "^3.0.18",
+    "@sanity/client": "^6.18.2",
+    "@sanity/image-url": "^1.0.2",
+    "next": "^15.5.15",
+    "next-sanity": "^9.12.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-is": "^19.2.5",
+    "sanity": "3.50.0",
+    "styled-components": "^6.4.0"
+  },
+  "devDependencies": {
+    "@sanity/vision": "^3.50.0",
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^15.5.15",
+    "typescript": "^5.4.5"
+  }
+}
