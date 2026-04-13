@@ -865,6 +865,19 @@ a.post-card__cat:hover { color: var(--gold-bright); }
   background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 60%);
 }
 
+/* Tools page icon cards */
+.tools-card__icon-wrap {
+  display: flex; align-items: center; justify-content: center;
+  min-height: 140px;
+}
+.tools-card__icon { font-size: 3rem; line-height: 1; }
+.tools-card__btn {
+  display: inline-flex; align-items: center; gap: .3rem;
+  margin-top: .75rem; font-size: .78rem; font-weight: 700;
+  color: var(--gold); text-decoration: none;
+}
+.tools-card__btn:hover { color: var(--navy); }
+
 /* ═══════════════════════════════════════
    ARTICLE PAGE
 ═══════════════════════════════════════ */

@@ -50,7 +50,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <li><a href="/category/nutrition">Nutrition</a></li>
               <li><a href="/category/lifestyle">Lifestyle</a></li>
               <li><a href="/category/aging">Aging</a></li>
-              <li><a href="/category/tools">Tools</a></li>
+              <li><a href="/tools">Tools</a></li>
               <li><a href="/about/">About</a></li>
             </ul>
             <MobileNav />
