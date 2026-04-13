@@ -1,6 +1,15 @@
-const TAG = 'elitemensguide-20'
+'use client'
+
+const TAG_US = 'elitemensguide-20'
+const TAG_UK = 'elitemensguide-21'
+
 function amzLink(asin: string) {
-  return `https://www.amazon.com/dp/${asin}?tag=${TAG}`
+  const isUK = typeof navigator !== 'undefined' &&
+    (navigator.language?.startsWith('en-GB') ||
+     (navigator as any).languages?.some((l: string) => l === 'en-GB'))
+  return isUK
+    ? `https://www.amazon.co.uk/dp/${asin}?tag=${TAG_UK}`
+    : `https://www.amazon.com/dp/${asin}?tag=${TAG_US}`
 }
 
 export const AMAZON_PRODUCTS = {
