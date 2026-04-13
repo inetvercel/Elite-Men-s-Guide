@@ -4,13 +4,29 @@ function amzLink(asin: string) {
 }
 
 export const AMAZON_PRODUCTS = {
-  testosteroneBooster: {
-    asin: 'B07WQGVK19',
-    title: 'Prime Labs Men\'s Testosterone Booster',
-    desc: 'Natural support for energy, stamina & muscle. One of Amazon\'s best-rated supplements for men.',
-    badge: 'Best Seller',
-    badgeColor: '#d97706',
+  testosteroneBook: {
+    asin: '1764604113',
+    title: 'Diet for Men: Testosterone Optimization Guide',
+    desc: 'The complete nutrition guide for men looking to naturally optimise testosterone through diet, lifestyle and targeted eating strategies.',
+    badge: 'Editor\'s Pick',
+    badgeColor: '#b45309',
     category: 'Testosterone',
+  },
+  exerciseEncyclopedia: {
+    asin: 'B0FP8VKYJZ',
+    title: 'Mad Skills Exercise Encyclopedia',
+    desc: 'The ultimate bodyweight training reference — hundreds of exercises with step-by-step technique breakdowns for home or gym.',
+    badge: 'Top Rated',
+    badgeColor: '#16a34a',
+    category: 'Fitness',
+  },
+  ropelessJumpRope: {
+    asin: 'B0GL7S4KZ6',
+    title: 'Ropeless Weighted Jump Rope',
+    desc: 'Train cardio anywhere with zero space needed. Weighted handles for strength + low-impact conditioning — perfect home gym tool.',
+    badge: 'Home Gym Essential',
+    badgeColor: '#0891b2',
+    category: 'Home Gym',
   },
   multivitamin: {
     asin: 'B00LTK774I',
@@ -20,30 +36,6 @@ export const AMAZON_PRODUCTS = {
     badgeColor: '#16a34a',
     category: 'Nutrition',
   },
-  bloodPressureMonitor: {
-    asin: 'B07WQGVK19',
-    title: 'Omron Platinum Blood Pressure Monitor',
-    desc: 'Clinically validated upper arm BP monitor with Bluetooth. Track readings over time from home.',
-    badge: 'Clinically Validated',
-    badgeColor: '#2563eb',
-    category: 'Health Numbers',
-  },
-  proteinPowder: {
-    asin: 'B002DYJ0OG',
-    title: 'Optimum Nutrition Gold Standard Whey',
-    desc: '24g of protein per serving. The world\'s best-selling whey protein for muscle recovery.',
-    badge: '#1 Best Seller',
-    badgeColor: '#d97706',
-    category: 'Fitness',
-  },
-  sleepSupport: {
-    asin: 'B0013OQGO6',
-    title: 'Nature Made Melatonin 5mg',
-    desc: 'USP verified sleep support. Helps you fall asleep faster — critical for testosterone & recovery.',
-    badge: 'USP Verified',
-    badgeColor: '#7c3aed',
-    category: 'Sleep',
-  },
   omega3: {
     asin: 'B001LF39RY',
     title: 'Nordic Naturals Ultimate Omega',
@@ -51,6 +43,14 @@ export const AMAZON_PRODUCTS = {
     badge: 'Doctor Recommended',
     badgeColor: '#0891b2',
     category: 'Nutrition',
+  },
+  bloodPressureMonitor: {
+    asin: 'B0C2DQSVLT',
+    title: 'Omron Platinum Blood Pressure Monitor',
+    desc: 'Clinically validated upper arm BP monitor with Bluetooth. Track readings over time from home.',
+    badge: 'Clinically Validated',
+    badgeColor: '#2563eb',
+    category: 'Health Numbers',
   },
 }
 
@@ -128,7 +128,7 @@ export function AmazonProductGrid({ keys }: ProductGridProps) {
 }
 
 export function AmazonSidebarWidget() {
-  const picks: ProductKey[] = ['multivitamin', 'omega3', 'testosteroneBooster']
+  const picks: ProductKey[] = ['testosteroneBook', 'exerciseEncyclopedia', 'ropelessJumpRope']
   return (
     <div className="amz-sidebar-widget">
       <div className="amz-sidebar-widget__header">
