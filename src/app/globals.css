@@ -3315,3 +3315,110 @@ a.post-card__cat:hover { color: var(--gold-bright); }
   .article-title { font-size: 1.6rem; }
   .hero-post__title { font-size: 1.4rem; }
 }
+
+/* ═══════════════════════════════════════
+   SYMPTOMS OF DEPRESSION PAGE
+═══════════════════════════════════════ */
+.dep-page { min-height: 100vh; background: var(--bg); }
+
+.dep-hero {
+  background: var(--navy); border-bottom: 3px solid var(--gold);
+  padding: 3.5rem 2rem 3rem; text-align: center;
+}
+.dep-hero__inner { max-width: 680px; margin: 0 auto; }
+.dep-hero__eyebrow { font-size: .72rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); margin-bottom: .5rem; }
+.dep-hero__title { font-size: clamp(1.8rem,4.5vw,2.8rem); font-weight: 800; color: #fff; margin: 0 0 .75rem; letter-spacing: -.01em; }
+.dep-hero__sub { font-size: 1rem; color: rgba(255,255,255,.7); margin: 0; line-height: 1.6; }
+
+.dep-body { max-width: 780px; margin: 0 auto; padding: 2.5rem 1.5rem 5rem; }
+
+.dep-section { margin-bottom: 2.5rem; }
+.dep-section h2 { font-size: 1.35rem; font-weight: 800; color: var(--navy); margin: 0 0 .9rem; padding-left: 3rem; }
+.dep-section p { font-size: .95rem; color: var(--text-body); line-height: 1.75; margin: 0 0 .75rem; }
+.dep-section p:last-child { margin-bottom: 0; }
+
+.dep-lead { font-size: 1.05rem !important; color: var(--navy) !important; font-weight: 500; }
+
+/* Numbered section badge */
+.dep-section__num {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 2.2rem; height: 2.2rem; border-radius: 50%;
+  background: var(--navy); color: var(--gold);
+  font-size: .85rem; font-weight: 800; margin-bottom: .6rem;
+}
+
+/* Divider */
+.dep-divider {
+  display: flex; align-items: center; gap: 1rem;
+  margin: 0 0 2rem; color: var(--muted); font-size: .75rem;
+  font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+}
+.dep-divider::before, .dep-divider::after {
+  content: ''; flex: 1; height: 1px; background: var(--border);
+}
+
+/* Info cards */
+.dep-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1rem; }
+.dep-card {
+  background: #fff; border: 1px solid var(--border);
+  border-radius: var(--radius-lg); padding: 1.1rem 1.2rem;
+  box-shadow: var(--shadow-sm);
+}
+.dep-card__title { font-size: .82rem; font-weight: 800; color: var(--navy); text-transform: uppercase; letter-spacing: .07em; margin-bottom: .4rem; }
+.dep-card p { font-size: .88rem; color: var(--text-body); line-height: 1.65; margin: 0; }
+.dep-card p em { color: var(--muted); font-style: italic; }
+
+/* Bullet list */
+.dep-list { margin: .75rem 0 0 1.5rem; padding: 0; display: flex; flex-direction: column; gap: .45rem; }
+.dep-list li { font-size: .95rem; color: var(--text-body); line-height: 1.65; }
+
+/* Warning callout */
+.dep-callout {
+  display: flex; gap: 1rem; align-items: flex-start;
+  background: #fff8f0; border: 1px solid #fbbf24; border-left: 4px solid var(--gold);
+  border-radius: var(--radius-lg); padding: 1.25rem 1.4rem;
+  margin-bottom: 2.5rem;
+}
+.dep-callout__icon { font-size: 1.3rem; line-height: 1; flex-shrink: 0; margin-top: .1rem; }
+.dep-callout strong { display: block; color: var(--navy); font-size: .95rem; margin-bottom: .35rem; }
+.dep-callout p { font-size: .88rem; color: var(--text-body); line-height: 1.7; margin: 0; }
+.dep-callout p em { color: var(--muted); }
+
+/* FAQ */
+.dep-faq { display: flex; flex-direction: column; gap: .5rem; }
+.dep-faq__item { border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden; background: #fff; }
+.dep-faq__q {
+  width: 100%; display: flex; align-items: center; justify-content: space-between;
+  gap: .75rem; padding: .9rem 1.2rem; background: none; border: none;
+  font-family: inherit; font-size: .92rem; font-weight: 700; color: var(--navy);
+  text-align: left; cursor: pointer; transition: background .15s;
+}
+.dep-faq__q:hover { background: var(--bg-soft); }
+.dep-faq__q svg { width: 18px; height: 18px; flex-shrink: 0; color: var(--gold); transition: transform .2s; }
+.dep-faq__item.open .dep-faq__q svg { transform: rotate(180deg); }
+.dep-faq__a { padding: 0 1.2rem 1rem; font-size: .88rem; color: var(--text-body); line-height: 1.75; border-top: 1px solid var(--border); padding-top: .75rem; }
+
+/* References */
+.dep-refs { border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden; }
+.dep-refs__toggle {
+  width: 100%; display: flex; align-items: center; gap: .6rem;
+  background: var(--bg-soft); border: none; padding: .9rem 1.25rem;
+  font-family: inherit; font-size: .88rem; font-weight: 700; color: var(--navy);
+  cursor: pointer; text-align: left; transition: background .15s;
+}
+.dep-refs__toggle:hover { background: #e8e8e8; }
+.dep-refs__toggle svg:first-child { width: 18px; height: 18px; color: var(--gold); flex-shrink: 0; }
+.dep-refs__chevron { width: 16px; height: 16px; margin-left: auto; color: var(--muted); transition: transform .2s; }
+.dep-refs__chevron.open { transform: rotate(180deg); }
+.dep-refs__body { border-top: 1px solid var(--border); padding: 1.25rem; display: flex; flex-direction: column; gap: 1.25rem; }
+.dep-refs__group-title { font-size: .72rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--gold); margin-bottom: .5rem; }
+.dep-refs__list { margin: 0; padding-left: 1.5rem; display: flex; flex-direction: column; gap: .5rem; }
+.dep-refs__list li { font-size: .78rem; color: var(--muted); line-height: 1.6; }
+.dep-refs__list a { color: var(--navy); text-decoration: underline; text-underline-offset: 2px; }
+.dep-refs__list a:hover { color: var(--gold); }
+
+/* Responsive */
+@media (max-width: 600px) {
+  .dep-cards { grid-template-columns: 1fr; }
+  .dep-section h2 { padding-left: 0; }
+}
