@@ -84,11 +84,20 @@ function PostCard({ post }: { post: any }) {
 export default async function HomePage() {
   const posts = await getAllPosts(30)
 
-  const hero     = posts[0]
-  const featured = posts.slice(1, 3)
-  const popular  = posts.slice(3, 8)   // sidebar popular list
-  const mainGrid = posts.slice(8, 17)  // 3-col grid
-  const bottom   = posts.slice(17, 26) // bottom full-width grid
+  const pinnedHero = {
+    slug: 'symptoms-of-depression',
+    title: 'Symptoms of Depression in Men',
+    excerpt: 'Men rarely present with sadness. Clinical research shows depression in men manifests as anger, irritability, risk-taking and somatic pain — and is frequently missed. An in-depth evidence-based guide.',
+    categories: [{ name: 'Resources', slug: 'resources' }],
+    publishedAt: null,
+    featuredImage: null,
+    _heroImg: 'https://images.unsplash.com/photo-1541199249251-f713e6145474?w=1200&q=80&auto=format&fit=crop',
+  }
+
+  const featured = posts.slice(0, 2)
+  const popular  = posts.slice(2, 7)   // sidebar popular list
+  const mainGrid = posts.slice(7, 16)  // 3-col grid
+  const bottom   = posts.slice(16, 25) // bottom full-width grid
 
   return (
     <>
@@ -109,34 +118,25 @@ export default async function HomePage() {
           {/* ── LEFT: main editorial content ── */}
           <main className="page-main">
 
-            {/* Hero post */}
-            {hero && (
-              <div className="home-section">
-                <div className="section-label"><span>Editor&apos;s Pick</span></div>
-                <Link href={`/${hero.slug}`} className="hero-post">
-                  <div className="hero-post__img">
-                    {hero.featuredImage?.asset ? (
-                      <Image
-                        src={urlFor(hero.featuredImage.asset).width(900).height(500).auto('format').url()}
-                        alt={hero.featuredImage.alt || hero.title}
-                        width={900} height={500}
-                        priority sizes="(max-width:1024px) 100vw, 66vw"
-                      />
-                    ) : <div className="hero-post__img-placeholder" />}
-                    <div className="hero-post__overlay">
-                      {hero.categories?.[0] && (
-                        <div className="hero-post__cat">{hero.categories[0].name}</div>
-                      )}
-                      <h2 className="hero-post__title">{hero.title}</h2>
-                      {hero.excerpt && (() => { const ex = cleanExcerpt(hero.excerpt, hero.title, 160); return ex ? <p className="hero-post__excerpt">{ex}…</p> : null })()}
-                      {hero.publishedAt && (
-                        <div className="hero-post__meta">{fmtDate(hero.publishedAt)}</div>
-                      )}
-                    </div>
+            {/* Hero post — pinned */}
+            <div className="home-section">
+              <div className="section-label"><span>Editor&apos;s Pick</span></div>
+              <Link href={`/${pinnedHero.slug}`} className="hero-post">
+                <div className="hero-post__img">
+                  <Image
+                    src={pinnedHero._heroImg}
+                    alt={pinnedHero.title}
+                    width={900} height={500}
+                    priority sizes="(max-width:1024px) 100vw, 66vw"
+                  />
+                  <div className="hero-post__overlay">
+                    <div className="hero-post__cat">{pinnedHero.categories[0].name}</div>
+                    <h2 className="hero-post__title">{pinnedHero.title}</h2>
+                    <p className="hero-post__excerpt">{pinnedHero.excerpt}</p>
                   </div>
-                </Link>
-              </div>
-            )}
+                </div>
+              </Link>
+            </div>
 
             {/* Featured pair */}
             {featured.length > 0 && (
