@@ -155,6 +155,12 @@ export default function BMRCalculatorPage() {
 
         {/* ── Hero ── */}
         <div className="bmr-hero">
+          <img
+            src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1400&q=80&auto=format&fit=crop"
+            alt="Man tracking fitness and metabolism"
+            className="bmr-hero__img"
+          />
+          <div className="bmr-hero__overlay" />
           <div className="bmr-hero__inner">
             <p className="bmr-hero__eyebrow">Health Numbers</p>
             <h1 className="bmr-hero__title">BMR Calculator for Men</h1>
