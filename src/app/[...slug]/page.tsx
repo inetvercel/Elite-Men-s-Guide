@@ -169,9 +169,19 @@ function hasContent(post: any): boolean {
   return hasBody || hasRaw
 }
 
+const TOOL_REDIRECTS: Record<string, string> = {
+  'basal-metabolic-rate-bmr-calculator': '/basal-metabolic-rate-bmr-calculator',
+  'body-mass-index': '/body-mass-index',
+  'emg-health-numbers-body-mass-index-calculator': '/body-mass-index',
+  'waist-to-height-ratio': '/waist-to-height-ratio',
+}
+
 export default async function PostPage({ params }: Props) {
   const { slug: slugParts } = await params
   const slug = slugParts[slugParts.length - 1]
+
+  if (TOOL_REDIRECTS[slug]) redirect(TOOL_REDIRECTS[slug])
+
   const post = await getPostBySlug(slug)
   if (!post) notFound()
 
