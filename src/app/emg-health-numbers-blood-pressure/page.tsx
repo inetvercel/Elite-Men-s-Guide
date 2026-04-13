@@ -186,11 +186,6 @@ export default function BloodPressurePage() {
                   {result.category.label}
                 </div>
                 <p className="bp-result__tip">{result.category.tip}</p>
-                <a className="bp-result__link"
-                  href="http://www.heart.org/HEARTORG/Conditions/HighBloodPressure/AboutHighBloodPressure/Understanding-Blood-Pressure-Readings_UCM_301764_Article.jsp"
-                  target="_blank" rel="noopener noreferrer">
-                  External resource: AHA — Understanding Blood Pressure Readings →
-                </a>
                 <button className="bp-result__reset" onClick={reset}>Recalculate</button>
               </div>
             )}
