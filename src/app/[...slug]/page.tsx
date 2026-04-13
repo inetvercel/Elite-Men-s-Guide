@@ -171,10 +171,7 @@ function hasContent(post: any): boolean {
 }
 
 const TOOL_REDIRECTS: Record<string, string> = {
-  'basal-metabolic-rate-bmr-calculator': '/basal-metabolic-rate-bmr-calculator',
-  'body-mass-index': '/body-mass-index',
   'emg-health-numbers-body-mass-index-calculator': '/body-mass-index',
-  'waist-to-height-ratio': '/waist-to-height-ratio',
 }
 
 export default async function PostPage({ params }: Props) {
