@@ -4,12 +4,13 @@ const TAG_US = 'elitemensguide-20'
 const TAG_UK = 'elitemensguide-21'
 
 function amzLink(asin: string) {
-  const isUK = typeof navigator !== 'undefined' &&
-    (navigator.language?.startsWith('en-GB') ||
-     (navigator as any).languages?.some((l: string) => l === 'en-GB'))
-  return isUK
-    ? `https://www.amazon.co.uk/dp/${asin}?tag=${TAG_UK}`
-    : `https://www.amazon.com/dp/${asin}?tag=${TAG_US}`
+  if (typeof navigator === 'undefined') return `https://www.amazon.com/dp/${asin}?tag=${TAG_US}`
+  const langs: string[] = (navigator as any).languages ?? [navigator.language]
+  const isUK = langs.some((l: string) => l === 'en-GB' || l.startsWith('en-GB'))
+  const isCA = langs.some((l: string) => l === 'en-CA' || l.startsWith('en-CA'))
+  if (isUK) return `https://www.amazon.co.uk/dp/${asin}?tag=${TAG_UK}`
+  if (isCA) return `https://www.amazon.ca/dp/${asin}?tag=${TAG_US}`
+  return `https://www.amazon.com/dp/${asin}?tag=${TAG_US}`
 }
 
 export const AMAZON_PRODUCTS = {
