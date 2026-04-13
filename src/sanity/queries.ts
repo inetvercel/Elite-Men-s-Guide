@@ -38,7 +38,7 @@ const CACHE = { next: { revalidate: 3600 } }
 
 export async function getAllPosts(limit = 100, offset = 0) {
   return client.fetch(
-    `*[_type == "post" && status == "publish"] | order(publishedAt desc) [$offset...$end] {
+    `*[_type == "post" && status == "publish" && invisible != true] | order(publishedAt desc) [$offset...$end] {
       ${postFields}
     }`,
     { offset, end: offset + limit },
@@ -70,12 +70,12 @@ export async function getPostByPermalink(permalink: string) {
 }
 
 export async function getAllPostSlugs() {
-  return client.fetch(`*[_type == "post" && status == "publish"].slug.current`, {}, CACHE)
+  return client.fetch(`*[_type == "post" && status == "publish" && invisible != true].slug.current`, {}, CACHE)
 }
 
 export async function getPostsByCategory(categorySlug: string, limit = 100) {
   return client.fetch(
-    `*[_type == "post" && status == "publish" && $slug in categories[]->slug.current]
+    `*[_type == "post" && status == "publish" && invisible != true && $slug in categories[]->slug.current]
       | order(publishedAt desc)[0...$limit] {
       ${postFields}
     }`,
@@ -89,7 +89,7 @@ export async function getCategoryBySlug(slug: string) {
     `*[_type == "category" && slug.current == $slug][0] {
       _id, name, "slug": slug.current, description,
       "parent": parent->{name, "slug": slug.current},
-      "postCount": count(*[_type == "post" && status == "publish" && ^._id in categories[]._ref])
+      "postCount": count(*[_type == "post" && status == "publish" && invisible != true && ^._id in categories[]._ref])
     }`,
     { slug },
     CACHE
@@ -103,7 +103,7 @@ export async function getAllCategories() {
 }
 
 export async function getTotalPostCount() {
-  return client.fetch(`count(*[_type == "post" && status == "publish"])`, {}, CACHE)
+  return client.fetch(`count(*[_type == "post" && status == "publish" && invisible != true])`, {}, CACHE)
 }
 
 export async function getRelatedPosts(currentSlug: string, categoryIds: string[], limit = 3) {
@@ -111,6 +111,7 @@ export async function getRelatedPosts(currentSlug: string, categoryIds: string[]
     `*[
       _type == "post" &&
       status == "publish" &&
+      invisible != true &&
       slug.current != $slug &&
       count((categories[]._ref)[@ in $catIds]) > 0 &&
       defined(featuredImage.asset)

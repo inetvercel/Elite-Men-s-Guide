@@ -204,16 +204,24 @@ export default defineType({
       title: 'SEO',
       type: 'seoFields',
     }),
+    defineField({
+      name: 'invisible',
+      title: 'Invisible',
+      type: 'boolean',
+      description: 'Hide from homepage, category pages and search listings — but the post URL remains accessible for indexing.',
+      initialValue: false,
+    }),
   ],
   preview: {
     select: {
       title: 'title',
       media: 'featuredImage',
       date: 'publishedAt',
+      invisible: 'invisible',
     },
-    prepare({ title, media, date }) {
+    prepare({ title, media, date, invisible }) {
       return {
-        title,
+        title: invisible ? `[INVISIBLE] ${title}` : title,
         media,
         subtitle: date ? new Date(date).toLocaleDateString() : '',
       }
