@@ -175,7 +175,6 @@ const TOOL_REDIRECTS: Record<string, string> = {
   'body-mass-index': '/body-mass-index',
   'emg-health-numbers-body-mass-index-calculator': '/body-mass-index',
   'waist-to-height-ratio': '/waist-to-height-ratio',
-  'symptoms-of-depression': '/symptoms-of-depression',
 }
 
 export default async function PostPage({ params }: Props) {
@@ -297,12 +296,12 @@ export default async function PostPage({ params }: Props) {
       </article>
 
       <div className="amz-post-cta">
-        <AmazonProductBox productKey="multivitamin" variant="wide" />
+        <AmazonProductBox productKey="testosteroneBook" variant="wide" />
       </div>
 
       <div className="amz-post-grid-wrap">
         <div className="amz-post-grid-label">EMG Recommended — Shop on Amazon</div>
-        <AmazonProductGrid keys={['testosteroneBooster', 'omega3', 'proteinPowder']} />
+        <AmazonProductGrid keys={['exerciseEncyclopedia', 'ropelessJumpRope', 'omega3']} />
       </div>
 
       {related.length > 0 && (
