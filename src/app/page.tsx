@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import { getAllPosts, getAllCategories } from '@/sanity/queries'
+import { AmazonSidebarWidget } from '@/app/components/AmazonCTA'
 import imageUrlBuilder from '@sanity/image-url'
 import { client } from '@/sanity/client'
 
@@ -220,6 +221,9 @@ export default async function HomePage() {
                 ))}
               </div>
             </div>
+
+            {/* Amazon widget */}
+            <AmazonSidebarWidget />
 
             {/* Categories widget */}
             <div className="widget">

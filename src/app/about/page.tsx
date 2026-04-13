@@ -164,6 +164,35 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* ── Affiliate Disclosure ── */}
+      <section className="about-affiliate">
+        <div className="about-section__inner">
+          <div className="about-affiliate__inner">
+            <div className="about-affiliate__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M13.5 21v-7.5a.75.75 0 01.75-.75h3a.75.75 0 01.75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349m-16.5 11.65V9.35m0 0a3.001 3.001 0 003.75-.615A2.993 2.993 0 009.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 002.25 1.016c.896 0 1.7-.393 2.25-1.016a3.001 3.001 0 003.75.614m-16.5 0a3.004 3.004 0 01-.621-4.72L4.318 3.44A1.5 1.5 0 015.378 3h13.243a1.5 1.5 0 011.06.44l1.19 1.189a3 3 0 01-.621 4.72m-13.5 8.65h3.75a.75.75 0 00.75-.75V13.5a.75.75 0 00-.75-.75H6.75a.75.75 0 00-.75.75v3.75c0 .415.336.75.75.75z"/>
+              </svg>
+            </div>
+            <div className="about-affiliate__text">
+              <h2 className="about-affiliate__title">Amazon Affiliate Disclosure</h2>
+              <p>
+                Elite Men&apos;s Guide is a participant in the <strong>Amazon Services LLC Associates Program</strong>, an affiliate advertising programme designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com.
+              </p>
+              <p>
+                When you click on an Amazon product link on this site and make a purchase, we may earn a small commission — <strong>at no extra cost to you</strong>. Our affiliate ID is <code>elitemensguide-20</code>.
+              </p>
+              <p>
+                We only recommend products that we genuinely believe are beneficial and relevant to our readers. Affiliate relationships <strong>do not influence our editorial content</strong> or the health guidance we provide.
+              </p>
+              <div className="about-affiliate__badge">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                Compliant with FTC guidelines on affiliate marketing disclosures.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ── Disclaimer ── */}
       <section className="about-disclaimer">
         <div className="about-section__inner">

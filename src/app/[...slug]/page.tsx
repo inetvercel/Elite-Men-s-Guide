@@ -9,6 +9,7 @@ import imageUrlBuilder from '@sanity/image-url'
 import { client } from '@/sanity/client'
 import Image from 'next/image'
 import youtubeCache from '@/data/youtube-cache.json'
+import { AmazonProductBox, AmazonProductGrid } from '@/app/components/AmazonCTA'
 
 export async function generateStaticParams() {
   const slugs: string[] = await getAllPostSlugs()
@@ -293,6 +294,15 @@ export default async function PostPage({ params }: Props) {
           <div dangerouslySetInnerHTML={{ __html: post.rawHtml ?? '' }} />
         )}
       </article>
+
+      <div className="amz-post-cta">
+        <AmazonProductBox productKey="multivitamin" variant="wide" />
+      </div>
+
+      <div className="amz-post-grid-wrap">
+        <div className="amz-post-grid-label">EMG Recommended — Shop on Amazon</div>
+        <AmazonProductGrid keys={['testosteroneBooster', 'omega3', 'proteinPowder']} />
+      </div>
 
       {related.length > 0 && (
         <aside className="related-posts">
