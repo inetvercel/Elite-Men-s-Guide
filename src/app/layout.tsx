@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Script from 'next/script'
 import './globals.css'
 import MobileNav from './components/MobileNav'
 
@@ -28,6 +29,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-RS6LLDTNQ4"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-RS6LLDTNQ4');
+          `}
+        </Script>
         <nav className="site-nav">
           <div className="site-nav__inner">
             <a href="/" className="site-nav__logo">
